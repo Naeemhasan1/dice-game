@@ -19,10 +19,10 @@ refreshButton.addEventListener("click", function () {
 });
 
 var text = [
-  "tor kopale soni ache",
-  "tomare kintu futaia felmu",
-  "chol jai pat khete",
-  "tor cokh duita khuila marbel khelum",
+  '"tor kopale soni ache"',
+  '"tomare kintu futaia felmu"',
+  '"chol jai pat khete"',
+  '"tor cokh duita khuila marbel khelum"',
 ];
 var textPosition = Math.floor(Math.random() * 4);
 var message = text[textPosition];
