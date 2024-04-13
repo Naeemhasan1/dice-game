@@ -31,7 +31,7 @@ if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "🚩Naeem win!!";
   document.querySelector("h2").innerHTML = "Thak kaindo na billu!! 😎";
 } else if (randomNumber1 < randomNumber2) {
-  document.querySelector("h1").innerHTML = "Lubna win!!🚩";
+  document.querySelector("h1").innerHTML = "Billu win!!🚩";
   document.querySelector("h2").innerHTML = message;
 } else {
   document.querySelector("h1").innerHTML = "Draw!!";
