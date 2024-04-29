@@ -19,19 +19,19 @@ refreshButton.addEventListener("click", function () {
 });
 
 var text = [
-  '"tor kopale soni ache"',
-  '"tomare kintu futaia felmu"',
-  '"chol jai pat khete"',
-  '"tor cokh duita khuila marbel khelum"',
+  '"well played"',
+  '"Amazing!!!"',
+  '"Congratulations 🎉"',
+  '"Hurrah!! you won the game"',
 ];
 var textPosition = Math.floor(Math.random() * 4);
 var message = text[textPosition];
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩Naeem win!!";
-  document.querySelector("h2").innerHTML = "Thak kaindo na billu!! 😎";
+  document.querySelector("h1").innerHTML = "🚩Player 1 win win!!";
+  document.querySelector("h2").innerHTML = "I am the boss 😎";
 } else if (randomNumber1 < randomNumber2) {
-  document.querySelector("h1").innerHTML = "Billu win!!🚩";
+  document.querySelector("h1").innerHTML = "Player 2 win!!🚩";
   document.querySelector("h2").innerHTML = message;
 } else {
   document.querySelector("h1").innerHTML = "Draw!!";
